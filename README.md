@@ -44,6 +44,10 @@ Styling regarding the ```<article>``` portion was moved to better associate with
 
 After changing ```<div>``` to ```<nav>```, the CSS element needed to be updated.
 
+## Deployment Link
+
+https://ryancharleson.github.io/Challenge-01/
+
 ## Mock-Up
 
 The following image shows the web application's appearance. 
