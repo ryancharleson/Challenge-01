@@ -1,6 +1,6 @@
 # Challenge-01 Ryan Charleson
 
-## Purpose for This Challenge
+## Description
 
 The purpose for this challenge is to revise a webpage so that it better follows accessibility standards.
 
@@ -23,9 +23,11 @@ The purpose for this challenge is to revise a webpage so that it better follows 
 
 ## Changes Made to the HTML
 
+Line 11 ```<div>``` was changed to ```<header>```
+line 22 ```<div>``` was changed to ```<main>```
 ```<article>``` was used where ```<div>``` had been placed to separate company services.
-```<section>``` was used where ```<div>``` had been placed to label benefits of company services.
-```<aside>``` was used where ```<div>``` had been placed to better display orientation of benefits.
+```<aside>``` was used where ```<div>``` had been placed to label benefits of company services.
+```<section>``` was used where ```<div>``` had been placed to better display orientation of benefits.
 
 
 ## Issues found within the CSS
@@ -38,6 +40,9 @@ The purpose for this challenge is to revise a webpage so that it better follows 
 ```color: #ffffff``` was removed from ```benefit-lead```, ```benefit-brand```, and ```benefit-cost``` and reassigned to the parent class of ```benefits```.
 
 Styling regarding the ```<article>``` portion was moved to better associate with the order in which it appears in the HTML.
+
+
+After changing ```<div>``` to ```<nav>```, the CSS element needed to be updated.
 
 ## Mock-Up
 
